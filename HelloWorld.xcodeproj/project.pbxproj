@@ -101,10 +101,8 @@
 		727F7EE41F69B226009B2F79 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				727F7EE81F69B226009B2F79 /* AppDelegate.h */,
-				727F7EE91F69B226009B2F79 /* AppDelegate.m */,
-				727F7EEB1F69B226009B2F79 /* ViewController.h */,
-				727F7EEC1F69B226009B2F79 /* ViewController.m */,
+				727F7F191F69B2ED009B2F79 /* ViewControllers */,
+				727F7F181F69B2DA009B2F79 /* Delegates */,
 				727F7EEE1F69B226009B2F79 /* Main.storyboard */,
 				727F7EF11F69B226009B2F79 /* Assets.xcassets */,
 				727F7EF31F69B226009B2F79 /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				727F7F0C1F69B227009B2F79 /* Info.plist */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		727F7F181F69B2DA009B2F79 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				727F7EE81F69B226009B2F79 /* AppDelegate.h */,
+				727F7EE91F69B226009B2F79 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		727F7F191F69B2ED009B2F79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				727F7EEB1F69B226009B2F79 /* ViewController.h */,
+				727F7EEC1F69B226009B2F79 /* ViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

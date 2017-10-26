@@ -10,6 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+//UIKit interacts with most window interactions.
+//UIWindow - An object that provides the backdrop for your app’s user interface and provides important event-handling behaviors.
 @property (strong, nonatomic) UIWindow *window;
 
 
